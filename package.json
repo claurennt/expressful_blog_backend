@@ -1,0 +1,31 @@
+{
+  "name": "expressful-blog-backend",
+  "version": "1.0.0",
+  "description": "A NodeJS backend for the expressful blog",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "luxon": "^1.27.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "uuid4": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niwolos/expressful-blog-backend.git"
+  },
+  "author": "niwolos,claurennt,jkumar0208",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niwolos/expressful-blog-backend/issues"
+  },
+  "homepage": "https://github.com/niwolos/expressful-blog-backend#readme"
+}

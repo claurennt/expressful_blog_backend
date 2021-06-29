@@ -1,0 +1,3378 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "Blog_Post",
+        "type": "ContentType",
+        "createdAt": "2021-06-08T15:41:23.643Z",
+        "updatedAt": "2021-06-09T08:47:38.922Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 11,
+        "publishedAt": "2021-06-09T08:47:38.922Z",
+        "firstPublishedAt": "2021-06-08T15:41:24.054Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": "A blog post",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "titleMedia",
+          "name": "Title_media",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "linkMimetypeGroup": [
+                "image",
+                "video"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "publishingDate",
+          "name": "Publishing_date",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "location",
+          "name": "Location",
+          "type": "Location",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": true,
+          "omitted": true,
+          "linkType": "Entry"
+        },
+        {
+          "id": "tags",
+          "name": "Topic_tag",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": true,
+          "omitted": true,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Entry"
+          }
+        },
+        {
+          "id": "postAuthor",
+          "name": "Post Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "source",
+          "name": "Source",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "gender",
+        "type": "Tag",
+        "createdAt": "2021-06-08T18:25:02.832Z",
+        "updatedAt": "2021-06-08T18:25:02.832Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "GENDER"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "energy",
+        "type": "Tag",
+        "createdAt": "2021-06-09T14:31:23.131Z",
+        "updatedAt": "2021-06-09T14:31:23.131Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "ENERGY"
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "environment",
+        "type": "Tag",
+        "createdAt": "2021-06-14T18:42:19.879Z",
+        "updatedAt": "2021-06-14T18:42:19.879Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "version": 1,
+        "visibility": "public"
+      },
+      "name": "ENVIRONMENT"
+    }
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "7eghc04oyk9y",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 12,
+        "createdAt": "2021-06-08T15:41:24.169Z",
+        "createdBy": {
+          "sys": {
+            "id": "04s18iBCwkjiqD4eojzT7P",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-06-09T08:47:40.014Z",
+        "updatedBy": {
+          "sys": {
+            "id": "04s18iBCwkjiqD4eojzT7P",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "Blog_Post",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "titleMedia",
+          "settings": {
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "publishingDate",
+          "settings": {
+            "ampm": "24",
+            "format": "dateonly"
+          },
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "location",
+          "widgetId": "locationEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "entryLinksEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "postAuthor",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "source",
+          "widgetId": "urlEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "6Juy1ErMKVXwyOKuYnfTOw",
+        "type": "Entry",
+        "createdAt": "2021-06-08T18:18:44.078Z",
+        "updatedAt": "2021-06-09T16:37:33.382Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 49,
+        "publishedAt": "2021-06-09T16:37:33.382Z",
+        "firstPublishedAt": "2021-06-08T18:32:01.624Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 13,
+        "version": 50,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "How parents can better support their transgender children"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1swHd52WRznXJXtA2PKID0"
+            }
+          }
+        },
+        "body": {
+          "en-US": "__Parenting Transgender Children__\n\nBeing a parent can be the most rewarding yet challenging role in life, but this can be especially true if your child identifies as trans or transgendered because these identities have not been recognized or represented the way cis-gendered identities have. This means that as a parent, you have little to no resources to turn to for guidance on how to adequately respond to the needs of your trans or transgendered child.\n\nEm Matsuno, a research fellow at Palo Alto University, wants to relieve parents of trans and transgendered youth of some of their worries or doubts by developing an online training program that aims to help parents better understand their trans children.\n\nThrough the development of the Parent Support Program, Matsuno has identified ways parents can be better advocates for their children who identify as trans, transgendered, or nonbinary.\n\n__Common challenges for parents of trans kids__\n\nFear is a prevailing emotion for parents of trans kids. For fear of their child getting bullied at school, they may prevent their kids from wearing what they want. Or perhaps they are so afraid of not knowing how to respond to their child so they don’t respond at all.\n\nParents, too, may face rejection or criticism from their traditional or conservative extended families for supporting their trans youth.\n\n__What does the research say about parental support?__\n\nAccording to a 2016 study, trans children who are supported by their parents experience similar mental health outcomes as cis-gendered children. This indicates that being trans isn’t a precursor to [depression] or suicidal thoughts, but that the lack of support is what leads trans kids to be more at risk of [mental health] issues.\n\nParents are advised to support trans children by using their preferred [pronouns], defending them, even to their own extended families, and by educating themselves. Matsuno emphasizes that it’s okay for parents to feel sad or anxious, however, they should find their own supports to help them through that. If they are constantly expressing their emotional difficulties to their trans child, then it can make their kids feel as though they are to blame for their parents’ distress.\n\nIf parents are unable to find a local community of other parents who are going through similar experiences, then online support groups are a great alternative.\n\n__What can parents say to show support when their child trans child comes out?__\n\nWhen a trans youth comes out, it’s important to recognize and appreciate the bravery required to do such a thing. Underscore your gratitude by thanking them, and make sure to reassure them of your love explicitly.\n\nCommon missteps are stating that they are confused, or asking too many questions like “How did you know? When did you know?”\n\nAlthough it’s natural to be curious, quick successions of questions imply unbelief or disapproval. Instead, parents can try asking “Is it okay for me to ask some questions, or do you need some time?”\n\n__Simple Ways to Start Supporting Your Transgender Child__\n\n- Always use the name and pronouns that align with your child’s gender identity.\n- Be your child’s advocate – call out transphobia when you see it and ask that others respect your child’s identity.\n- Educate yourself about the concerns facing transgender youth and adults.\n- Learn what schools can and should do to support and affirm your child.\n- Encourage your child to stand up for themselves when it is safe to do so and to set boundaries when necessary.\n- Assure your child that they have your unconditional love and support.\n\n__Final advice__\n\nThough parents will often want to know their children, demanding certainty may foster anxiety. Instead, learn to be tolerant of ambiguity, uncertainty, and fluidity. Remember that things won’t always be clear and that children will need time to explore and change. The most important this is to allow children the freedom of being who they are."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-08"
+        },
+        "location": {
+          "en-US": {
+            "lon": 13.40495,
+            "lat": 52.52
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.yesmagazine.org/social-justice/2021/05/11/how-parents-can-support-trans-kids"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "55MWePKOiszksD5DVxS8mE",
+        "type": "Entry",
+        "createdAt": "2021-06-09T10:27:46.164Z",
+        "updatedAt": "2021-06-09T14:31:04.831Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2021-06-09T14:31:04.831Z",
+        "firstPublishedAt": "2021-06-09T10:33:27.352Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Three inspiring women tackling climate change head on"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7hBGmpWmHNNKo3UWjoR2ji"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Studies show that educating and empowering women to take up sustainable and eco-friendly livelihoods is one of the most effective solutions in tackling human-induced climate change. Sometimes, life experience is the best teacher and organically spurs women to lead environmental missions in their own communities. Here are three inspiring women from around the world who are doing just that.\n\n__Geeta Solanki, founder of Unipads India.__ Geeta Solanki, MBA, and former marketing professional was motivated to launch Unipads India in Gujarat after she was diagnosed with a vaginal cyst in 2016 that required surgery. This made the disposable sanitary pads she would use normally extremely painful to wear. Following her mother’s suggestion, Solanki decided to try traditional cloth pads and found that they were much more comfortable.\n\nAfter doing some research, she realized that there were only a few suppliers of reusable cloth pads in India, and the ones that were available were expensive and could only be purchased online. This meant almost 90 percent of Indian women couldn’t access them.\n\nThe average woman throws away 125 to 150 kg of disposable sanitary pads throughout the course of her life. Through Unipads India, Solanki isn’t just providing underprivileged women with sustainable, safe, and affordable menstrual products, but she is able to employ 135 women who were previously living in rural poverty.\n\n__Axelle Jorcin, founder of People and the Sea.__ Back in 2013, a monstrous typhoon hit a small island in the Philippines called Malapascua. Axelle Jorcin, an ex-BP supply chain manager and frequent diver, was on holiday there at the time and saw firsthand the devastation that the typhoon brought to the Malapascua community.\n\nShe said, “All the houses were destroyed, and we had to leave the island immediately. We returned home to France and felt a sense of helplessness. We wanted to do more than just send money to rebuild houses… because what would happen the next time a typhoon hit? Nothing would have changed.”\n\nUnable to sit idly in France, Jorcin launched People and the Sea, a charity that aims to bring lasting sustainability to the residents of the tiny island of Malapascua. People and the Sea have programs that empower the entire community through education in marine science and environmental education, zero waste strategies, economic resilience, and sustainable fishing practices.\n\n__Cheryl Rosebush, founder of the What the World Needs Now series.__ For Cheryl Rosebush, an ex-journalist from Canada, a simple trip to the grocery store with her young son pushed her to publish a children’s series that teaches the youth of today the value of sustainable living.\n\n“I was in the grocery store with my four-year-old, explaining why I was not going to buy that cheap plastic toy that every kid wants,” she says. “It’ll break in the next couple of days… you’ll be sad, we’ll put it in the garbage, some garbage ends in the ocean, a whale might see that piece of plastic, think it is food, eat it, and that will make the whale sick.”\n\nLater that night, during bedtime, her son explained back to her what might happen if they had purchased the plastic toy, which was her “lightbulb moment.”\n\n“[She] realized that we can and should be talking to really young kids about environmental problems,” so she started the What the World Needs Now series to facilitate that conversation between parents and their children.\n\nRosebush’s book is as sustainable as its message; it is produced with 100 percent recycled paper as well as a biodegradable lamination, vegetable-based inks, and carbon-balanced printing."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-09"
+        },
+        "location": {
+          "en-US": {
+            "lon": 13.40495,
+            "lat": 52.52
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.euronews.com/green/2021/04/20/unpaid-and-from-scratch-three-unlikely-women-embarking-on-environmental-missions"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5MPYmjPIZdEmaxM9ASVrYU",
+        "type": "Entry",
+        "createdAt": "2021-06-09T10:34:33.292Z",
+        "updatedAt": "2021-06-14T18:32:16.356Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2021-06-14T18:32:16.356Z",
+        "firstPublishedAt": "2021-06-09T10:36:08.598Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 6,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Periods for Periods uses design to combat period poverty"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "39NdAbhvdnUQ7BDmmDng1Q"
+            }
+          }
+        },
+        "body": {
+          "en-US": "We recently wrote about the Irish grocery chain offering free menstrual products to all, as well as other initiatives in Scotland, Wales, Victoria, and New Zealand that address the issue of period poverty by making menstrual products available free of charge.\n\nNow, Canadian creative agency Rethink Communications is using creative design to advance the fight against period poverty. They’ve asked designers, illustrators, and typographers to collaborate in the creation of a typeface called Periods for Periods, a group of whimsical circular designs that are meant to be a play on the “periods” of punctuation.\n\nRethink Communications told Dezeen, “We created this font as a protest against the current requirement for young people to pay for period products in school… one in seven teens have missed school due to a lack of period supplies.”\n\n140 designers from across the world contributed their blood-red compositions to the typeface, which is available for download free of charge through the Periods for Periods website. Users are invited to create their own “period” using an online tool via the website, which also features a section where users in the US can tweet their local education officials to insist that they offer free sanitary products within schools.\n\nThe agency hopes that their periods will be incorporated into more designs as an act of advocacy for menstrual health. Their innovative initiative uses the ubiquity of punctuation, as well as catchy designs and outreach to catalyze change through art."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-06"
+        },
+        "location": {
+          "en-US": {
+            "lon": 13.40495,
+            "lat": 52.52
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.dezeen.com/2021/04/29/periods-for-periods-typeface-design/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3WG8K2aLvVEUnFASdWHABz",
+        "type": "Entry",
+        "createdAt": "2021-06-09T10:37:09.365Z",
+        "updatedAt": "2021-06-09T14:21:09.521Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-06-09T14:21:09.521Z",
+        "firstPublishedAt": "2021-06-09T10:38:18.522Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Meet Samantha Flores: The activist fighting loneliness among LGBTQ seniors"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6pRGX3mzJAzrSUuokyuVDI"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Many elderly people face loneliness and isolation, an issue that people of all ages will understand better having now experienced the social restrictions of the pandemic. For the elderly who identify with the LGBTQ community and came of age in a different era, the isolation can be even worse. Many would have been rejected by their families early on or might have struggled feeling their identities were not accepted by society.\n\nFor 88-year-old Samantha Flores, long-time socialite, manager of a gay bar, LGBTQ advocate, and transgender icon, loneliness is not an issue she faces. “Without my friends, I wouldn’t be who I am,” she states. However, she also realizes that a thriving social life is not always common for people in her community.\n\nThree years ago, Ms. Flores founded Vida Alegre, or Happy Life, a drop-in center that helps older LGBTQ adults combat isolation in Mexico City. Before the pandemic, the center offered meditation, grief therapy, meals, a movie club, and tech training. Overall, the greatest benefit for those who come to Vida Alegre is the sense of community.\n\nUnfortunately, the pandemic has forced Ms. Flores to close the center, but with vaccinations underway, she hopes to reopen again soon. In the meantime, she’s working to raise awareness for LGBTQ resources. In the past year, she was profiled by Vogue Mexico and was even featured in a campaign for Gucci. Her expanding platform gives her more opportunities to speak out about Vida Alegre and the discrimination still faced by Mexican trans people, especially women, every day.\n\nMexico consistently ranks among the most dangerous countries in the world for transgender people. Due to rampant discrimination, trans women struggle to find jobs and often have no other option but to turn to sex work to make a living. The combination of machismo attitudes and gang violence leaves trans sex workers vulnerable to harassment and violence.\n\nMs. Flores moved to Mexico City in the 1950s and somehow managed to avoid trouble although it was even more dangerous back then to identify as LGBTQ. Although Ms. Flores herself was unscathed by much of the police brutality experienced by her peers, she saw firsthand the persecution of trans and gay people and felt uneasy being a trans woman in Mexico. She also lost many friends to HIV. Bearing witness to the perpetual state of crisis that faced her community inspired her to become an activist, which eventually led to the opening of Vida Alegre, the first LGBTQ center of its kind in the country.\n\nVida Alegre, a one-room building in the Álamos neighborhood, had a community of around 40 people before the pandemic. Although it serves as a haven for the LGBTQ community, half of the regular visitors are cis-gendered individuals and go there simply for the company. Ms. Flores’ one wish is for the center to open again so she can continue her work of alleviating the elderly of their loneliness, and providing a safe, loving, and empathetic community for some of society’s most marginalized"
+        },
+        "publishingDate": {
+          "en-US": "2021-06-01"
+        },
+        "location": {
+          "en-US": {
+            "lat": 52.52,
+            "lon": 13.40495
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.nytimes.com/2021/04/02/world/americas/mexico-transgender-community-center.html?action=click&module=In%20Other%20News&pgtype=Homepage"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "73RjqKkpPj5Th2Ek2knliA",
+        "type": "Entry",
+        "createdAt": "2021-06-09T10:39:29.984Z",
+        "updatedAt": "2021-06-14T18:32:47.743Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-06-14T18:32:47.743Z",
+        "firstPublishedAt": "2021-06-09T10:40:44.821Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "New Zealand approves paid leave for miscarriage"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3E1Oyhx2H0IUbEuw4JRivi"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Led by Prime Minister Jacinda Ardern, New Zealand has spearheaded progressive women’s rights policies with free menstrual products in schools and landmark pay equity laws. Now, the country is expanding upon its public health policies surrounding reproductive rights and has unanimously approved a bill that gives mothers and their partners the right to paid leave following a miscarriage or stillbirth. \n\nCalled bereavement allowance, the new law was passed by parliament last week and gives employees three days of paid leave in the event that pregnancy ends in stillbirth or miscarriage. The law applies to pregnant individuals and their partners as well as those planning to have a child through surrogacy or adoption. \n\nThe bill was introduced by Labour Party MP Ginny Andersen who said, “The bill will give women and their partners time to come to terms with their loss without having to tap into sick leave. Because their grief is not a sickness, it is a loss. And loss takes time.”\n\nAn estimated one in four women in New Zealand have had a miscarriage, yet it is only the second country in the world, following India, to make labor rights provisions for this health condition. This is a historic move for progressive and compassionate legislation surrounding reproductive rights and we hope to see more countries follow suit."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-10"
+        },
+        "location": {
+          "en-US": {
+            "lat": 52.52,
+            "lon": 13.40495
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.nbcnews.com/news/world/new-zealand-approves-paid-leave-miscarriage-n1262121"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "energy"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5kxSABrUQsGeU9U4x1Q8QZ",
+        "type": "Entry",
+        "createdAt": "2021-06-09T14:11:03.840Z",
+        "updatedAt": "2021-06-14T20:59:49.605Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 23,
+        "publishedAt": "2021-06-14T20:59:49.605Z",
+        "firstPublishedAt": "2021-06-09T14:27:55.538Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 24,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "These ultra-low-cost batteries use CO2 to store renewable energy"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3clJrcavAuf4LUgeT1lRoL"
+            }
+          }
+        },
+        "body": {
+          "en-US": "While the price for lithium-ion batterieshas dropped significantly in recent years, the technology is still a tad too expensive to be the best solution for the long-term storage of renewable energy, most of which is weather-dependent. As such, innovators are looking beyond lithium-based batteries to find viable energy storage alternatives that could help accelerate our green energy transition.\n\nOne of the most interesting emerging energy storage solutions comes from a Bay Area startup called Noon Energy. The company is developing an ultra-low-cost rechargeable battery that would be powered by CO2 that has been split into carbon and oxygen using excess renewable energy.\n\nWhat differentiates Noon Energy from other battery companies is that instead of using pricier materials such as cobalt and lithium, the startup aims to radically lower long-term storage costs by creating a simpler technology that uses carbon and oxygen.\n\n“To enable a 100 percent solar and wind scenario, several-hour capacity \\[storage on the electric grid\\] doesn’t cut it,” says Chris Graves, founder of Noon Energy. “you need quite long storage capacities in the 100-plus hour storage-capacity range, and this will give you the full on-demand electricity that normally would have some fossil fuels. That’s what we’re going for.”\n\nCurrently, Noon Energy’s batteries only make economic sense in large-scale applications, but they hold the potential to revolutionize both the electric grid as well as long-distance transportation, such as cargo ships.\n\n“The potential energy density could enable long-range shipping and trucking,” says Amy Duffuor, a principal at Prime Impact Fund, a climate tech fund that recently secured a $3 million investment for the startup. “And for us, in the climate tech space, that is literally one of the hardest knots to crack in the energy transition.”"
+        },
+        "publishingDate": {
+          "en-US": "2021-06-03"
+        },
+        "location": {
+          "en-US": {
+            "lon": 9.212922669655876,
+            "lat": 49.13643305634107
+          }
+        },
+        "postAuthor": {
+          "en-US": "niwolos"
+        },
+        "source": {
+          "en-US": "https://www.fastcompany.com/90640812/could-these-ultra-low-cost-batteries-be-the-lithium-free-energy-storage-to-power-the-renewable-grid"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "energy"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "70FxCcAg6EQuSkMEnazOEF",
+        "type": "Entry",
+        "createdAt": "2021-06-09T14:40:10.128Z",
+        "updatedAt": "2021-06-14T18:40:30.011Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 24,
+        "publishedAt": "2021-06-14T18:40:30.011Z",
+        "firstPublishedAt": "2021-06-09T14:47:02.233Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 25,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Papilio is a self-powered street lamp designed to reduce light pollution"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6LkzTA2l7NGdhtcahtucqE"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Human innovation has driven our civilizations forward, but oftentimes at the detriment of other species. For instance, conventional lights and street lamps allow people to work and navigate at night, but they can confuse nocturnal life and attract pollinators, killing them in the process.\n\nTobias Trübenbacher, a design student from Berlin, has developed a lamp post that reduces the negative impact of light pollution by only lighting up when it’s needed. It also produces its own renewable energy through an integrated wind turbine, which cuts down on emissions associated with street lighting.\n\nThe lamp, called Papilio, is motion-activated and has a matte black body, designed to reflect as little light as possible. It can be mounted to walls or set up as a freestanding lantern. To maximize wind power, it should be placed three to six meters above ground level.\n\nIf placed on a diagonal, the rotor can make use of airflow created in urban environments, such as wind tunnels created by tall buildings and the airstreams of passing vehicles. The wind’s kinetic energy is converted into mechanical power, which is then turned into electricity by an integrated 300-watt generator. The energy is then stored in a rechargeable battery which will switch on with the help of an infrared motion sensor that indicates when someone is passing by.\n\nTrübenbacher sought out the assistance of scientists and researchers to ensure that the light emitted by the Papilio is less appealing to insects. Conventional, blue-toned streetlights attract insects and make them obvious to predators while also causing overheating and dehydration.\n\nLight pollution isn’t just bad for biodiversity, it has a negative impact on human health as well. “\\[It causes\\] sleep disorders, depression, cardiovascular disease, diabetes and cancer,” according to Trübenbacher.\n\nTrübenbacher has already tested the lights in various locations in Berlin, and reports that “under normal wind conditions, the generator generated an average of up to 12 volts of electricity at any given time.”\n\nHe hopes that when applied at scale, the light could illuminate cities without producing carbon emissions. He notes that in Germany alone, street lighting emits around 2.5 million tons of CO2 per year.\n\nThe integration of Papilio streetlamps could help eliminate those emissions and could operate without “expensive underground electricity infrastructure.” Or, alternatively, the lights could be connected to local power grids, and the surplus energy can be diverted and used by the city in other ways."
+        },
+        "publishingDate": {
+          "en-US": "2021-05-21"
+        },
+        "location": {
+          "en-US": {
+            "lon": 9.228353910120433,
+            "lat": 49.14679512900998
+          }
+        },
+        "postAuthor": {
+          "en-US": "niwolos"
+        },
+        "source": {
+          "en-US": "https://www.dezeen.com/2021/05/18/papilio-street-light-tobias-trubenbacher-design/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "energy"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "63BChWg7ugPkQwOQIigGWK",
+        "type": "Entry",
+        "createdAt": "2021-06-10T11:00:02.114Z",
+        "updatedAt": "2021-06-10T11:44:28.372Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-06-10T11:44:28.372Z",
+        "firstPublishedAt": "2021-06-10T11:38:31.576Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Harvard researchers uncover breakthrough in lithium-metal battery efficiency"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6snXmXRJ3NkGzdHalqul1l"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Researchers at Harvard University’s School of Engineering and Applied Science have discovered what is being referred to as the “holy grail” of battery breakthroughs, solving a 40-year quest for a fast-charging, long-lasting electric vehicle battery. \n\nThe newly developed lithium-metal batteries are capable of holding substantially more energy and charging in a fraction of the time compared to traditional lithium-ion batteries. The new battery can be charged and used at least 10,000 times while also increasing range and charging speed. \n\nThe technology takes advantage of assembly to boost performance, using a multi-layer approach to put them together to slow degradation.\n\nXin Li, an associate professor at Harvard who worked on the project says, “This proof-of-concept design shows that lithium-metal solid-state batteries could be competitive with commercial lithium-ion batteries. And the flexibility and versatility of our multilayer design make it potentially compatible with mass production procedures in the battery industry.”\n\nThis research is critical in expanding the reach of EV technology while reducing battery waste. It provides an additional resource to help facilitate the anticipated growth of EVs that will make gas-free models more affordable than combustion-powered engines by 2027. "
+        },
+        "publishingDate": {
+          "en-US": "2021-05-19"
+        },
+        "location": {
+          "en-US": {
+            "lat": 49.13266427243211,
+            "lon": 9.214951706203536
+          }
+        },
+        "postAuthor": {
+          "en-US": "niwolos"
+        },
+        "source": {
+          "en-US": "https://www.independent.co.uk/life-style/gadgets-and-tech/battery-lithium-metal-electric-cars-b1846327.html"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "environment"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3s8iYNT9LITOmTKSMZA8gv",
+        "type": "Entry",
+        "createdAt": "2021-06-14T21:00:19.426Z",
+        "updatedAt": "2021-06-16T09:41:11.829Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2021-06-16T09:41:11.829Z",
+        "firstPublishedAt": "2021-06-14T21:03:05.281Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Study: Electricity-eating bacteria could help fight climate change"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1rKuP9AhY1y0wijAoPoXmG"
+            }
+          }
+        },
+        "body": {
+          "en-US": "From spreading crushed rocks in forests and farmlands to constructing green buildings with materials that suck carbon up out of the atmosphere, scientists are hard at work developing innovative solutions that reduce our greenhouse gas emissions.\n\nMore recently, a team of scientists from Washington University in St. Louis investigated the potential of microorganisms to help us tackle climate change. The study involved shedding new light on electricity-eating bacteria that may help enhance our oceans’ ability to absorb CO2.\n\nThe peculiar electricity-munching skills of these microbes — known as photoferrotrophs — were previously thought to be almost exclusive to freshwater bacteria, but the recent study shows that they may be common in marine bacteria too.\n\n“These microbes are fixing and sequestering carbon dioxide and they can both ‘eat’ electricity and perform photoferrotrophy,” says study leader Arpita Bose. “Photoferrotrophs use soluble iron as an electron source for photosynthesis while fixing carbon dioxide. Marine environments are great places for them because they are rich in many things they need.”\n\nIn their study, the team investigated the way the bacteria consumes electrons and discovered a previously unknown electron-transfer protein that appears to be key in the process. While in a lab, the bacteria were able to harvest electrons directly from an electricity source. In the wild, they likely harvest electrons through rust and other iron minerals that are abundant in marine sediments.\n\nAccording to Bose, because these bacteria are common and thriving in marine sediments, they may already hold a key for future engineered approaches to combating climate change.\n\n“We need to understand the extent of carbon sequestration they can do in nature, as it might be a cryptic metabolism,” Bose says. “We could also potentiate it further—both for biotechnology and for the environment. This study is a big step, setting the stage for many future studies.”"
+        },
+        "publishingDate": {
+          "en-US": "2021-06-06"
+        },
+        "location": {
+          "en-US": {
+            "lon": -97.6533,
+            "lat": 30.45583
+          }
+        },
+        "postAuthor": {
+          "en-US": "Jugesh"
+        },
+        "source": {
+          "en-US": "https://www.futurity.org/photoferrotrophs-bacteria-electricity-2578222-2/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "environment"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "4jIYiqscLHY9BcgqVVREhL",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:04:45.799Z",
+        "updatedAt": "2021-06-15T16:07:22.135Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2021-06-15T16:07:22.135Z",
+        "firstPublishedAt": "2021-06-15T16:07:22.135Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Scientists develop innovative process that extracts lithium out of seawater"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7hF9EkcYp80eXpeHAYTHYt"
+            }
+          }
+        },
+        "body": {
+          "en-US": "While most electronics, including autonomous vehicles, power themselves with batteries made of lithium, the growing demand for this element is expected to exhaust our planet’s land-based reserves by 2080. Future shortages could cause battery prices to skyrocket and hinder the growth of electric vehicles and other lithium-dependent technologies such as batteries used to store renewable energy. Until we find viable alternatives that can replace lithium to power our tech, seawater may offer an opportunity to mitigate the risk associated with the element’s scarcity.\n\nWhile previous efforts to extract lithium from seawater have proved to be inefficient, KAUST scientists have developed an economically viable system that can extract high-purity lithium from our oceans, potentially reducing our dependency on land-based resources.\n\nAs reported by EurekAlert!, the new process uses an electrochemical cell containing a ceramic membrane made from lithium lanthanum titanium oxide (LLTO). The membrane’s crystal structure contains holes just wide enough to let lithium ions pass through while blocking larger metal ions. The system is also made of different compartments, featuring a copper cathode and a platinum-ruthenium anode.\n\nThe researchers tested the system using seawater from the Red Sea. At a voltage of 3.25V, the cell generates hydrogen gas at the cathode and chlorine gas at the anode. This drives the transport of lithium through the LLTO membrane and into a chamber designed to hold the lithium-rich water that, reaching concentrations of more than 9,000 ppm.\n\nTo make the final product pure enough to meet battery manufacturers’ requirements, the scientists then adjusted the pH of the solution to deliver solid lithium phosphate that contains mere traces of other metal ions.\n\nThe researchers estimate that the cell would need only US$5 of electricity to extract 1 kilogram of lithium from seawater. “We will continue optimizing the membrane structure and cell design to improve the process efficiency,” says group leader Zhiping Lai, whose team hopes to collaborate with the glass industry to produce the LLTO membrane at a large scale and affordable cost."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-10"
+        },
+        "location": {
+          "en-US": {
+            "lat": 49.11799606600955,
+            "lon": 9.239092998679851
+          }
+        },
+        "postAuthor": {
+          "en-US": "niwolos"
+        },
+        "source": {
+          "en-US": "https://www.eurekalert.org/pub_releases/2021-06/kauo-ech060321.php"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "environment"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3RuCInrr5I4b8ttGc3GyNh",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:05:25.315Z",
+        "updatedAt": "2021-06-15T16:07:46.580Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-06-15T16:07:46.580Z",
+        "firstPublishedAt": "2021-06-15T16:07:46.580Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Simply listening to nature is good for your health"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2AX7TjfMY8P6upLawZlEoW"
+            }
+          }
+        },
+        "body": {
+          "en-US": "There are few things as relaxing as the whisper of wind through the trees or the camping sound of a mountain stream, but it turns out these sounds do more than just help you fall asleep. It turns out that the sounds of nature can actually be beneficial for your health. \n\nA team of researchers from Michigan State University, Carleton University, and Colorado State University partnered with the National Park Service to investigate how natural sounds impact human health. They analyzed 18 studies and found that just listening to sounds found in natural landscapes has the power to decrease stress and pain, improve cognitive function, and enhance mood. \n\nThe researchers aren’t quite sure why this correlation between natural sounds and health exists, but they believe it is because the sounds of nature prompt our brains to shift our focus outward, while man-made sounds prompt our brains to shift our focus inwards, causing additional stress. \n\nLooking more specifically, the researchers even found correlations between different natural sounds and particular benefits. Bird sounds were associated with lowered stress and annoyance, while water sounds enhance tranquility, awareness, and relaxation. \n\nThese health benefits are the basis of practices like the Japanese tradition of “forest bathing,” and part of the reason why time in nature is so good for our mental health. If you don’t have easy access to natural spaces in your day to day life, don’t worry! The researchers note that even when mixed with urban sounds, natural noises are still beneficial. Blocking out man-made noises from your home or simply throwing on an ocean sounds playlist also provides healthy benefits."
+        },
+        "publishingDate": {
+          "en-US": "2021-05-10"
+        },
+        "location": {
+          "en-US": {
+            "lon": -77.0888,
+            "lat": 38.91448
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://mymodernmet.com/nature-sounds-health-study/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3NIgSvVOmF7zcWNdIAaol1",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:06:43.912Z",
+        "updatedAt": "2021-06-15T16:10:06.089Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-15T16:10:06.089Z",
+        "firstPublishedAt": "2021-06-15T16:10:06.089Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "New UN climate program aims to restore the planet’s ecosystems by 2030"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3XUVpb9nhtJ7DRkaeCs31E"
+            }
+          }
+        },
+        "body": {
+          "en-US": "According to a recent UN-backed study, the world must triple its investments in nature-based solutions by 2030 in order to successfully tackle the triple threat of climate change, biodiversity loss, and land degradation.\n\nIn an effort to support action geared towards achieving that ambitious goal, last Friday, the UN launched the UN Decade on Ecosystem Restoration — a program aiming to prevent, halt and reverse the degradation of ecosystems on every continent and in every ocean.\n\nDuring the virtual launch, the intergovernmental organization brought together heads of governments, religious leaders, artists, and activists from across the world to build a strong global climate restoration movement.\n\nThe program will run through 2030 — which is also the deadline for the Sustainable Development Goals — under the co-leadership of the UN Environmental Program (UNEP) and the Food and the Food and Agriculture Organization (FAO). Their efforts will include building political momentum for restoration as well as thousands of initiatives on the ground.\n\n“Businesses and the financial sector must reform operations and financial flows so that they restore and not destroy the natural world,” said Inger Andersen, UNEP Executive Director, noting that individual action is also key: “Re-think your choices, demand deforestation-free products, vote for sustainability in the polling booth, and raise your voice loud and clear.”"
+        },
+        "publishingDate": {
+          "en-US": "2021-06-15"
+        },
+        "location": {
+          "en-US": {
+            "lon": 10.159201264999993,
+            "lat": 52.56862693078373
+          }
+        },
+        "postAuthor": {
+          "en-US": "Jugesh"
+        },
+        "source": {
+          "en-US": "https://www.optimistdaily.com/2021/06/new-un-climate-program-aims-to-restore-the-planets-ecosystems-by-2030/#"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "gender"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "2IG9cLmmrXpskCQFBK8e6h",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:07:31.013Z",
+        "updatedAt": "2021-06-15T16:23:19.149Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2021-06-15T16:23:19.149Z",
+        "firstPublishedAt": "2021-06-15T16:12:42.769Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Burial site shows men were not always the hunters in prehistoric society"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7akY16jRTU79ggDbECCGip"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Traditional assumptions about prehistoric society placed males in hunting roles and women as gatherers. A new study from the University of California, Davis upends this archaeological thinking with the discovery of what looks like the remains of a 9,000 year old female hunter found in the Andean highlands of South America. \n\nThe woman was laid to rest with stone projectile points and animal processing tools, objects that were used for hunting big game. The Wilamaya Patjxa site, where she was found, is located in Peru beside 26 other graves, including one of a male hunter buried with similar supplies. \n\nCases of female warriors and hunters are not unheard of in archeology. After the discovery, the team of researchers completed an analysis of archaeological literature from North and South America and found several other cases in which women were buried with similar tools. Other research sites have revealed that some Viking warriors were women. \n\nContrary to mainstream thinking, jobs for ancient men and women appear to have varied based on ability and age, rather than gender alone. There is certainly more archeological analysis to be done, but this research shows us that much like today, prehistoric gender roles were not black and white."
+        },
+        "publishingDate": {
+          "en-US": "2020-11-07"
+        },
+        "location": {
+          "en-US": {
+            "lon": 9.21081493687121,
+            "lat": 49.132223041084174
+          }
+        },
+        "postAuthor": {
+          "en-US": "niwolos"
+        },
+        "source": {
+          "en-US": "https://gizmodo.com/9-000-year-old-burial-of-female-hunter-upends-beliefs-a-1845572169"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "environment"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "7Dlk33yPfKIcwOEv9RTcJS",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:09:06.526Z",
+        "updatedAt": "2021-06-15T16:10:01.240Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2021-06-15T16:10:01.240Z",
+        "firstPublishedAt": "2021-06-15T16:09:55.058Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "South Korea to plant 3 billion trees to achieve net-zero emissions by 2050"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "35mp6zlerdw7cc8nQr5oOF"
+            }
+          }
+        },
+        "body": {
+          "en-US": "In recent years, scientists have increasingly highlighted the key role that reforestation can play in fighting climate change. This has given rise to numerous initiatives around the world that have made it their goal to reduce CO2 emissions in the atmosphere by planting trees. Among these is the World Economic Forum’s One Trillion Trees Initiative that, as its name implies, aims to plant one trillion trees by 2030.\n\nIn concert with this initiative, the South Korea Forest Service (KFS) has announced its plans to plant three billion trees in the next three decades. Through the program, the Korean government plans to invest around $5.3 billion to restore forests, which it says could help slash around 34 million tons of CO2 emissions. This is part of the country’s larger plan to attain net-zero emissions by 2050. In 2016, the country ranked 11th in greenhouse gas emissions.\n\nAccording to KFS, some of the efforts will involve cutting trees that are older than 30 years and replacing them with new ones, following the reasoning that older trees have a smaller capacity to sequester carbon than younger ones.\n\nOverall, the future forests will cover around 2.34 million hectares (6 million acres)."
+        },
+        "publishingDate": {
+          "en-US": "2021-04-13"
+        },
+        "location": {
+          "en-US": {
+            "lon": 13.40495,
+            "lat": 52.52
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.ecowatch.com/south-korea-tree-planting-carbon-neutrality-2653239747.html"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+          {
+            "sys": {
+              "type": "Link",
+              "linkType": "Tag",
+              "id": "energy"
+            }
+          }
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5zwsHPFyKV5ZkkOHnedzvb",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:13:55.558Z",
+        "updatedAt": "2021-06-15T16:16:14.888Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2021-06-15T16:16:14.888Z",
+        "firstPublishedAt": "2021-06-15T16:15:12.588Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Heineken is turning wasted beer into sustainable energy"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3W4SpqyR1qoGzfWrAhzk55"
+            }
+          }
+        },
+        "body": {
+          "en-US": "When the pandemic forced us into lockdown, many of our favorite watering pubs, bars, and restaurants had to throw out millions of dollars of stock. In the UK, the British Beer and Pub Association (BBPA) estimates that about 87 million pints of beer have been tossed as a result.\n\nFortunately, the team at Heineken’s brewery in Manchester refused to waste their precious beer. Instead, they’ve figured out a way to convert excess beer into sustainable energy. The extra stock was supposed to be delivered to pubs around the country, but now the kegs are being emptied and drip-fed into an onsite wastewater treatment plant.\n\nFrom there, it’s put into an anaerobic digester which transforms the beer into biogas. The biogas is captured and funneled into a heat and power unit stored inside a shipping container which is then turned into renewable and sustainable energy.\n\nSince May of last year, the Heineken team has turned more than 7 million pints of beer into enough energy to power and heat around 28,000 average UK households for one day.\n\n“After all the care, attention, and passion that went into brewing the beer in the first place, it would have been a great shame to pour it down the drain— no brewer wants to see their beer not be enjoyed,” says Matt Callan, Heineken’s Brewery and Operations director. He is proud that the team at Heineken, Manchester was able to use the beer that would have gone to waste for green energy to power the brewing of fresh beer, ready for drinking when the pubs reopen."
+        },
+        "publishingDate": {
+          "en-US": "2021-03-07"
+        },
+        "location": {
+          "en-US": {
+            "lon": -80.1729,
+            "lat": 33.02386
+          }
+        },
+        "postAuthor": {
+          "en-US": "claurennt"
+        },
+        "source": {
+          "en-US": "https://www.intelligentliving.co/heineken-beer-waste-sustainable-energy/"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5xcly2A962okxyEZEbrGRD",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:14:53.470Z",
+        "updatedAt": "2021-06-15T16:16:25.101Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-15T16:16:25.101Z",
+        "firstPublishedAt": "2021-06-15T16:16:25.101Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": " Scientists develop life-saving scream-detecting drones"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5xohd3h59uSFgsqGM9GX53"
+            }
+          }
+        },
+        "body": {
+          "en-US": "The use of drones in urgent situations is becoming more popular as the technology gets increasingly refined. Now, a team of researchers has developed a system that could fly over disaster areas and help pinpoint the sounds of people who are screaming for help.\n\nWhile the need for such an invention is grim, recent years have demonstrated how useful such technology could be. Particularly in communities that are prone to wildfires, hurricanes, floods, and other forms of extreme weather that could seriously benefit from scream-identifying drones. These drones could be essential in the coming years as climate change is only worsening storms and fires. They would also be valuable for wilderness search and rescue missions.\n\nMacarena Varela, a researcher at Fraunhofer FKIE, who worked on the array and presented it to the Acoustical Society of America’s annual conference last Tuesday said, “If there is a building that is being destroyed, or if there is a catastrophe such as an earthquake people could be trapped under the rubble, rescue crews need to react really quickly.” She continues, saying, “It’s difficult for them to find the location of these people, but we could easily assist them in finding these locations if we’re using a UAV flying over a big area detecting human screams and other noises.”\n\nThe team created the scream-identifying drone by assembling a database of screams (think Monster’s Inc.) and other “impulsive” sounds people make when they’re trying to get the attention of rescuers, such as tapping, clapping, and stomping. They then applied deep learning techniques to test the database with a microphone array set up inside a lab to see if the system could accurately distinguish between human-in-trouble sounds and other types of noise.\n\nAccording to Varela, the team found that the lag between the microphone system picking up the sound of a scream and accurately identifying its location was only a couple of seconds. The team was also able to run speech clarification tests, which allowed them to amplify the sound of a distant mumble and refine it until it was a clear sentence. This technology could help rescuers get important information about the specific needs of people who are trapped or in trouble.\n\nVarela and the rest of the team then placed more than 60 digital microphones on top of a drone to test the system outside of the lab. Digital microphones don’t need a sound card and aren’t as bulky as traditional microphones, making them easier to deploy on drones. The microphones themselves aren’t very expensive either, costing them just a few Euros each, and it would be easy to add them on to drones that are already being used by first responders to get aerial data of disaster sites.\n\nThe idea would be for the drones to fly outdoors and pinpoint noises coming from collapsed buildings, then fly near where the noise source is and hover above it to identify the position, but the technology could be applied in many other situations. It can even be used by a rescuer carrying it on the ground or wherever they are needed, as it can help them identify sounds that human ears miss.\n\nVarela says that they haven’t been able to test the mobile drone system in a real-world situation, but suspects that a tool like a drone could be extremely useful to rescuers who need to cover large areas as quickly as possible. Varela hopes that more sensors like these ones could be used to locate unconscious victims as well to make the operation even more comprehensive."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-15"
+        },
+        "location": {
+          "en-US": {
+            "lon": 13.455099702499993,
+            "lat": 52.60867428093999
+          }
+        },
+        "postAuthor": {
+          "en-US": "Jugesh"
+        },
+        "source": {
+          "en-US": "https://www.optimistdaily.com/2021/06/scientists-develop-life-saving-scream-detecting-drones/#"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5Eba6oBHG467Vve5lmOkcD",
+        "type": "Entry",
+        "createdAt": "2021-06-15T16:17:06.625Z",
+        "updatedAt": "2021-06-15T16:19:00.418Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-15T16:19:00.418Z",
+        "firstPublishedAt": "2021-06-15T16:19:00.418Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "Blog_Post"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "This artificial island will protect Copenhagen from sea level rise"
+        },
+        "titleMedia": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1slbA31EhHcB6hoQ5AsFvF"
+            }
+          }
+        },
+        "body": {
+          "en-US": "Like hundreds of other coastal cities across the world, Copenhagen is vulnerable to climate change-induced sea-level rise that is significantly increasing the city’s risk of flooding during storms. In a bid to protect its capital, the Danish government is now preparing plans for a huge project: building an artificial island to hold the rising water back, while also allowing the city to add new houses.\n\n“Rather than considering the need for climate-proofing and flood protection a stand-alone project, Lynettholm combines climate-proofing with urban development,” says Ole Schrøder, one of the designers working on the project.\n\nThe developers will build the artificial island — which is almost as big as Central Park — in the middle of the Port of Copenhagen. There it will protect the city from storm surges by acting as a dam, while also adding new housing for 35,000 residents. North of the island, a passage to the city’s harbor will have gates that can close in the event of a severe storm.\n\nRather than building huge walls to keep the water out, the island will absorb it with designated open spaces. The island “is planned with wide beaches and flat stretches of coast, whose absorbent edges reduce the strength of the waves and can thus be established in a lower terrain,” says Schrøder.\n\nIn addition to homes, the space will also have a park designed to support local biodiversity. While a cool addition to the city’s green areas, the park will also act as a buffer for extreme weather. “The landscape can be easily adapted with new terrain types in connection with future sea-level rise,” he says."
+        },
+        "publishingDate": {
+          "en-US": "2021-06-15"
+        },
+        "location": {
+          "en-US": {
+            "lon": 9.675802827499993,
+            "lat": 51.432391179658744
+          }
+        },
+        "postAuthor": {
+          "en-US": "Jugesh"
+        },
+        "source": {
+          "en-US": "https://www.optimistdaily.com/2021/06/this-artificial-island-will-protect-copenhagen-from-sea-level-rise/#"
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "1swHd52WRznXJXtA2PKID0",
+        "type": "Asset",
+        "createdAt": "2021-06-08T18:26:55.420Z",
+        "updatedAt": "2021-06-08T18:29:39.812Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-08T18:29:39.812Z",
+        "firstPublishedAt": "2021-06-08T18:29:39.812Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Protect Trans Youth"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/1swHd52WRznXJXtA2PKID0/a5740b1f6eab81f792b05446a5c1d0d2/1_hrThah9hhJA64f-C1i6nzg.jpeg",
+            "details": {
+              "size": 23398,
+              "image": {
+                "width": 774,
+                "height": 340
+              }
+            },
+            "fileName": "1*hrThah9hhJA64f-C1i6nzg.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "7hBGmpWmHNNKo3UWjoR2ji",
+        "type": "Asset",
+        "createdAt": "2021-06-09T10:32:25.680Z",
+        "updatedAt": "2021-06-09T10:33:22.701Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-09T10:33:22.701Z",
+        "firstPublishedAt": "2021-06-09T10:32:58.170Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "people of the sea"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/7hBGmpWmHNNKo3UWjoR2ji/a2fa29b6f957a0f0353240a56ef01baa/34502238_2185643291681129_7306422296065867776_n-e1620374516105.jpg",
+            "details": {
+              "size": 152474,
+              "image": {
+                "width": 950,
+                "height": 633
+              }
+            },
+            "fileName": "34502238_2185643291681129_7306422296065867776_n-e1620374516105.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "39NdAbhvdnUQ7BDmmDng1Q",
+        "type": "Asset",
+        "createdAt": "2021-06-09T10:34:37.747Z",
+        "updatedAt": "2021-06-09T10:35:08.239Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-09T10:35:08.239Z",
+        "firstPublishedAt": "2021-06-09T10:35:08.239Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Periods for periods"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/39NdAbhvdnUQ7BDmmDng1Q/53de64fc04a21988e8c06758d6f2d218/periods-for-periods-re-think-canada-typeface-design_dezeen_2364_col_3-e1620056601743.jpg",
+            "details": {
+              "size": 68557,
+              "image": {
+                "width": 950,
+                "height": 534
+              }
+            },
+            "fileName": "periods-for-periods-re-think-canada-typeface-design_dezeen_2364_col_3-e1620056601743.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "6pRGX3mzJAzrSUuokyuVDI",
+        "type": "Asset",
+        "createdAt": "2021-06-09T10:37:13.076Z",
+        "updatedAt": "2021-06-09T10:37:31.525Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-09T10:37:31.525Z",
+        "firstPublishedAt": "2021-06-09T10:37:31.525Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Samantha Flores"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/6pRGX3mzJAzrSUuokyuVDI/7aa0096a1251cf182c8f72209514119d/merlin_184220097_cedd8fab-6335-4f64-81e0-98a91f7182b9-superJumbo-e1617471411965.jpg",
+            "details": {
+              "size": 104477,
+              "image": {
+                "width": 950,
+                "height": 633
+              }
+            },
+            "fileName": "merlin_184220097_cedd8fab-6335-4f64-81e0-98a91f7182b9-superJumbo-e1617471411965.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3E1Oyhx2H0IUbEuw4JRivi",
+        "type": "Asset",
+        "createdAt": "2021-06-09T10:39:47.587Z",
+        "updatedAt": "2021-06-09T10:40:05.496Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-09T10:40:05.496Z",
+        "firstPublishedAt": "2021-06-09T10:40:05.496Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "NZ"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/3E1Oyhx2H0IUbEuw4JRivi/0593422e72f1dc4d46200c0686ee6a29/shutterstock_1704463945-e1616884277236.jpg",
+            "details": {
+              "size": 104556,
+              "image": {
+                "width": 950,
+                "height": 634
+              }
+            },
+            "fileName": "shutterstock_1704463945-e1616884277236.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3clJrcavAuf4LUgeT1lRoL",
+        "type": "Asset",
+        "createdAt": "2021-06-09T14:17:22.853Z",
+        "updatedAt": "2021-06-09T14:27:52.152Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-06-09T14:27:52.152Z",
+        "firstPublishedAt": "2021-06-09T14:27:52.152Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "These ultra-low-cost batteries use CO2 to store renewable energy - Title image"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/3clJrcavAuf4LUgeT1lRoL/cba64923da67b9a816f8e6498aef7cfb/shutterstock_1188783937-e1622550284774.jpeg",
+            "details": {
+              "size": 108182,
+              "image": {
+                "width": 950,
+                "height": 634
+              }
+            },
+            "fileName": "shutterstock_1188783937-e1622550284774.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "6LkzTA2l7NGdhtcahtucqE",
+        "type": "Asset",
+        "createdAt": "2021-06-09T14:40:13.994Z",
+        "updatedAt": "2021-06-09T14:40:59.264Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-09T14:40:59.264Z",
+        "firstPublishedAt": "2021-06-09T14:40:59.264Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Papilio is a self-powered street lamp designed to reduce light pollution"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/6LkzTA2l7NGdhtcahtucqE/c17b0a7e47174f796fb890916a8f4d48/papilio-tobias-trubenabacher-design_dezeen_2364_col_0-852x479-1-e1621433632932.jpg",
+            "details": {
+              "size": 57086,
+              "image": {
+                "width": 852,
+                "height": 479
+              }
+            },
+            "fileName": "papilio-tobias-trubenabacher-design_dezeen_2364_col_0-852x479-1-e1621433632932.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "1IKEhSvHp03kPiuhiRGi5w",
+        "type": "Asset",
+        "createdAt": "2021-06-09T19:22:47.772Z",
+        "updatedAt": "2021-06-14T18:39:29.062Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-14T18:39:29.062Z",
+        "firstPublishedAt": "2021-06-14T18:39:29.062Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Eco-curtains3-e1623063949895"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/1IKEhSvHp03kPiuhiRGi5w/563756d0dc0c76295585bb8858113e53/Eco-curtains3-e1623063949895.jpg",
+            "details": {
+              "size": 92463,
+              "image": {
+                "width": 950,
+                "height": 634
+              }
+            },
+            "fileName": "Eco-curtains3-e1623063949895.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "6snXmXRJ3NkGzdHalqul1l",
+        "type": "Asset",
+        "createdAt": "2021-06-10T11:00:16.305Z",
+        "updatedAt": "2021-06-10T11:03:49.686Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-10T11:03:49.686Z",
+        "firstPublishedAt": "2021-06-10T11:03:49.686Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Harvard researchers uncover breakthrough in lithium-metal battery efficiency"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/6snXmXRJ3NkGzdHalqul1l/56c69eb10e1f1ffe0fcbf7458ff45a77/shutterstock_1913117320-e1621281776631.jpg",
+            "details": {
+              "size": 47768,
+              "image": {
+                "width": 950,
+                "height": 634
+              }
+            },
+            "fileName": "shutterstock_1913117320-e1621281776631.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "1rKuP9AhY1y0wijAoPoXmG",
+        "type": "Asset",
+        "createdAt": "2021-06-14T21:01:43.458Z",
+        "updatedAt": "2021-06-14T21:01:56.056Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-14T21:01:56.056Z",
+        "firstPublishedAt": "2021-06-14T21:01:56.056Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "shutterstock 1483465421"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/1rKuP9AhY1y0wijAoPoXmG/1defbcfd2b69edaf7689ca8e84112908/shutterstock_1483465421.png",
+            "details": {
+              "size": 589036,
+              "image": {
+                "width": 950,
+                "height": 633
+              }
+            },
+            "fileName": "shutterstock_1483465421.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "7hF9EkcYp80eXpeHAYTHYt",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:04:51.598Z",
+        "updatedAt": "2021-06-15T16:05:08.040Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-15T16:05:08.040Z",
+        "firstPublishedAt": "2021-06-15T16:05:08.040Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Scientists develop innovative process that extracts lithium out of seawater"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/7hF9EkcYp80eXpeHAYTHYt/a0eeda910eb971fb2a8d8bbdc2af1c52/shutterstock_1698876385.png",
+            "details": {
+              "size": 1292611,
+              "image": {
+                "width": 950,
+                "height": 633
+              }
+            },
+            "fileName": "shutterstock_1698876385.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "2AX7TjfMY8P6upLawZlEoW",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:05:40.755Z",
+        "updatedAt": "2021-06-15T16:06:28.104Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2021-06-15T16:06:28.104Z",
+        "firstPublishedAt": "2021-06-15T16:05:57.278Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "shutterstock 1072392194-e1623517049984"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/2AX7TjfMY8P6upLawZlEoW/131cf0754f2143614136a8e1d85cd511/shutterstock_1072392194-e1623517049984.jpg",
+            "details": {
+              "size": 185869,
+              "image": {
+                "width": 950,
+                "height": 621
+              }
+            },
+            "fileName": "shutterstock_1072392194-e1623517049984.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "35mp6zlerdw7cc8nQr5oOF",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:09:10.687Z",
+        "updatedAt": "2021-06-15T16:09:19.963Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-15T16:09:19.963Z",
+        "firstPublishedAt": "2021-06-15T16:09:19.963Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "shutterstock 219615874-e1623330376548"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/35mp6zlerdw7cc8nQr5oOF/3e4480d68fdb0a662df472c328357204/shutterstock_219615874-e1623330376548.jpeg",
+            "details": {
+              "size": 144937,
+              "image": {
+                "width": 950,
+                "height": 601
+              }
+            },
+            "fileName": "shutterstock_219615874-e1623330376548.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "7akY16jRTU79ggDbECCGip",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:10:19.794Z",
+        "updatedAt": "2021-06-15T16:10:34.726Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2021-06-15T16:10:34.726Z",
+        "firstPublishedAt": "2021-06-15T16:10:34.726Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "1HeinmeQdnmzEqxDow54rI"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "gender-e1604543738620Burial site shows men were not always the hunters in prehistoric society"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/7akY16jRTU79ggDbECCGip/4215be8e8cca0060a6e26ff3beb021e3/gender-e1604543738620.jpg",
+            "details": {
+              "size": 65477,
+              "image": {
+                "width": 950,
+                "height": 534
+              }
+            },
+            "fileName": "gender-e1604543738620.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "3W4SpqyR1qoGzfWrAhzk55",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:14:11.796Z",
+        "updatedAt": "2021-06-15T16:14:26.096Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-15T16:14:26.096Z",
+        "firstPublishedAt": "2021-06-15T16:14:26.096Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "shutterstock 1489457423-scaled-e1620660718519"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/3W4SpqyR1qoGzfWrAhzk55/27e4e5a697d82c5e241ac23d093c14c8/shutterstock_1489457423-scaled-e1620660718519.jpg",
+            "details": {
+              "size": 66769,
+              "image": {
+                "width": 950,
+                "height": 633
+              }
+            },
+            "fileName": "shutterstock_1489457423-scaled-e1620660718519.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "5xohd3h59uSFgsqGM9GX53",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:15:44.593Z",
+        "updatedAt": "2021-06-15T16:16:00.371Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-15T16:16:00.371Z",
+        "firstPublishedAt": "2021-06-15T16:16:00.371Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "b30c6b4463f0b0909e3e8a15bb84a901-e1623603017649"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/5xohd3h59uSFgsqGM9GX53/c22ef3b023b3bf5ba89fe2f72df1aef0/b30c6b4463f0b0909e3e8a15bb84a901-e1623603017649.jpeg",
+            "details": {
+              "size": 32111,
+              "image": {
+                "width": 950,
+                "height": 534
+              }
+            },
+            "fileName": "b30c6b4463f0b0909e3e8a15bb84a901-e1623603017649.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "id": "1slbA31EhHcB6hoQ5AsFvF",
+        "type": "Asset",
+        "createdAt": "2021-06-15T16:18:36.052Z",
+        "updatedAt": "2021-06-15T16:18:53.982Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-06-15T16:18:53.982Z",
+        "firstPublishedAt": "2021-06-15T16:18:53.982Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0z7ctje9Wan2T0PFyxv7kS"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "lynetteholm-copenhagen-by-arkitema-tredje-natur-cowi dezeen 2364 col 0-852x479-1"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/7eghc04oyk9y/1slbA31EhHcB6hoQ5AsFvF/5fd6ae57f6941a93b31532d5696c94d8/lynetteholm-copenhagen-by-arkitema-tredje-natur-cowi_dezeen_2364_col_0-852x479-1.jpeg",
+            "details": {
+              "size": 72153,
+              "image": {
+                "width": 852,
+                "height": 479
+              }
+            },
+            "fileName": "lynetteholm-copenhagen-by-arkitema-tredje-natur-cowi_dezeen_2364_col_0-852x479-1.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "2bNRtrkKAMrynVHTa0pwfE",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "aa757afb-ceb9-4a08-985e-0d3f2f851ed6"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "createdAt": "2021-06-08T15:01:09Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedAt": "2021-06-08T15:01:09Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2bQkoNGdSv2KLLP70w93TI",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "7eghc04oyk9y"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "createdAt": "2021-06-08T15:01:09Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "04s18iBCwkjiqD4eojzT7P"
+          }
+        },
+        "updatedAt": "2021-06-08T15:01:09Z"
+      }
+    }
+  ]
+}
