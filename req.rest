@@ -1,0 +1,13 @@
+###
+POST http://localhost:3001/blogposts/create
+Content-Type: application/json
+
+{
+
+"title": "ciao",
+"media_url": "ciao",
+"body": "cl",
+"author": "n",
+"source_url": "ok",
+"tags": "energy"
+}

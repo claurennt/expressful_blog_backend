@@ -1,14 +1,13 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs");
-const { Pool } = require("pg");
+
 const app = express();
 app.use(cors());
 const db = require("./database/client");
 const auth = require("./middlewares/authorization");
 const uuid4 = require("uuid4");
-// const content = require("./contentful-content-only.json");
+
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
@@ -26,7 +25,7 @@ app.get("/blogPosts", (req, res) => {
 app.post("/blogPosts/create", auth, (req, res, next) => {
   const content_id_raw = uuid4();
 
-  const { author, body, media_url, source_url, tags, title } = req.body.newPost;
+  const { author, body, media_url, source_url, tags, title } = req.body;
 
   const content_id = content_id_raw;
 
