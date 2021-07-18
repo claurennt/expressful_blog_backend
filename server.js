@@ -25,7 +25,7 @@ app.get("/blogPosts", (req, res) => {
 app.post("/blogPosts/create", auth, (req, res, next) => {
   const content_id_raw = uuid4();
 
-  const { author, body, media_url, source_url, tags, title } = req.body;
+  const { title, media_url, body, author, source_url, tags } = req.body;
 
   const content_id = content_id_raw;
 
