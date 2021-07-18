@@ -23,6 +23,7 @@ app.get("/blogPosts", (req, res) => {
 });
 
 app.post("/blogPosts/create", auth, (req, res, next) => {
+  console.log(req);
   const content_id_raw = uuid4();
 
   const { title, media_url, body, author, source_url, tags } = req.body;
