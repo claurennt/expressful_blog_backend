@@ -12,12 +12,38 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send(`
+ <h1>Welcome to the Expressful Blog Back-end</h1>
+ <br/>
+ <h3>GET/blogPosts      ---> get all blog posts</h3>
+ <h3>GET/blogPosts{tag}      ---> get all blog posts that match tag energy||gender||environment</h3>
+ <h3>POST/blogPosts/create     ---> post new blog post*</h3>
+ <aside>*only with authorization token</aside>`);
+});
+
 app.get("/blogPosts", (req, res) => {
   db.query(
     `
  SELECT content_id, title, media_url, body, post_date, author, source_url, tags 
  FROM blog_posts;`
   )
+    .then((posts) => res.status(200).json(posts.rows))
+    .catch((e) => res.status(500).send(e.message));
+});
+
+app.get("/blogPosts/:tag", (req, res) => {
+  const { tag } = req.params;
+
+  const searchPostsByTag = {
+    text: `
+ SELECT * 
+ FROM blog_posts
+ WHERE tags=$1;`,
+    values: [tag],
+  };
+
+  db.query(searchPostsByTag)
     .then((posts) => res.status(200).json(posts.rows))
     .catch((e) => res.status(500).send(e.message));
 });
